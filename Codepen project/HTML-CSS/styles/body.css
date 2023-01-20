@@ -1,0 +1,107 @@
+/* Display */
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #41454F, black);
+    height: 100%;
+}
+/* Left Column */
+.body-container > .left-column {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    width: 100%;
+    height: 100%;
+}
+
+
+.body-container > .left-column > .body-wrapper {
+    width: px;
+    height: 100%;
+    margin-left: 50px;
+}
+
+
+.body-container > .left-column > .body-wrapper > .body-text {
+    text-align: left;
+       
+}
+
+.body-container > .left-column > .body-wrapper > .body-text h1 {
+    font-size: 2rem;
+}
+
+.body-container > .left-column > .body-wrapper > .body-text h2 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.body-container > .left-column > .body-wrapper > .body-text h5 {
+    font-size: 1.6rem;
+    line-height: 1.5em;
+}
+
+.body-container > .left-column > .body-wrapper > .body-btns {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    width: 500px;
+    padding-right: 50px;
+}
+
+
+.body-container > .left-column > .body-wrapper > .body-btns > .sign-up {
+    background-color: #4BCE79;
+    margin-right: 10px;
+    padding: 15px 20px;
+    border-radius: 2px;
+
+}
+
+.body-container > .left-column > .body-wrapper > .body-btns > .sign-up a {
+    color: #111111;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.body-container > .left-column > .body-wrapper > .body-btns > .log-in {
+    background-color: #111111;
+    padding: 15px 20px;
+    border-radius: 2px;
+}
+
+.body-container > .left-column > .body-wrapper > .body-btns > .log-in a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+/* Right Column */
+
+.body-container > .right-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 300px;
+    height: 100%;
+    width: 719px;
+}
+
+.body-container > .right-column > .coding-img img {
+    height: 100%;
+    width: 719px;
+}
+
+.body-container > .right-column > .img-discriptor{
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+
+.body-container > .right-column > .img-discriptor h3 {
+    font-size: 1.2rem;
+    font-weight: 900;
+}

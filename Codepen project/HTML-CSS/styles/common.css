@@ -1,0 +1,53 @@
+/* Common Style */
+html {
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+}
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+    overflow: auto;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+}
+
+/* Dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: .5s;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:  #36383F;
+    border-radius: 2px;
+    min-width: 160px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    transition: 0.5s;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s;
+
+}
+.dropdown-content a:hover {
+    background-color: #ECBD3E;
+    border-radius: 2px;
+    letter-spacing: .1em;
+
+}

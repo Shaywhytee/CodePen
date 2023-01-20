@@ -1,0 +1,160 @@
+/* Display */
+
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 26px;
+    padding-top: 13px;
+    height: 50px;
+    
+}
+
+/* Left Column */
+
+.nav-bar-wrapper > .left-column > .company-logo img {
+    height: 100%;
+    width: 200px;
+    margin-left: 22px;
+    margin-top: 26px;
+}
+
+/* Center Column */
+
+.nav-bar-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: left; 
+    grid-gap: 5px;
+    width: 330px;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.nav-bar-wrapper > .center-column > .explore-text {
+    color: #ECBD3E;
+}
+
+.nav-bar-wrapper > .center-column > .nav-links-wrapper {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    margin-top: -26px;
+    height: 100%;
+    width: 1000px;
+}
+
+.nav-bar-wrapper > .center-column > .nav-links-wrapper > .nav-link {
+    height: 26px;
+    padding-right: 20px;
+
+}
+
+.nav-bar-wrapper > .center-column > .nav-links-wrapper > .nav-link a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.nav-bar-wrapper > .center-column > .nav-links-wrapper > .nav-link a:hover {
+    color: #ECBD3E;
+    font-size: 1.4em;
+}
+
+.nav-bar-wrapper > .center-column > .nav-links-wrapper > .spark-dropdown {
+    margin-top: 5px;
+    height: 26px;
+    width: 140px;
+    margin-left: 10px;
+    
+}
+
+.nav-bar-wrapper > .center-column > .nav-links-wrapper > .spark-dropdown button {
+    font-family: "Oswald", sans-serif;
+    color: #ACACAC;
+    transition: .5s;
+    border: none;
+    background: none;
+
+}
+
+.nav-bar-wrapper > .center-column > .nav-links-wrapper > .spark-dropdown button:hover {
+    color: #ECBD3E;
+    letter-spacing: .2em
+    ;
+}
+.nav-bar-wrapper > .center-column > .nav-links-wrapper > .spark-dropdown i {
+    margin-left: 15px;
+}
+
+/* Right Column */
+
+.nav-bar-wrapper > .right-column {
+    height: 26px;
+    width: 650px;
+    margin-right: 10px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.nav-bar-wrapper > .right-column > .btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
+.nav-bar-wrapper > .right-column > .btn-wrapper a {
+    color: #FFFFF4;
+    text-decoration: none;
+    background-color: #36383F;
+    padding: 15px 20px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.nav-bar-wrapper > .right-column > .btn-wrapper a:hover {
+    background-color: #ECBD3E;
+}
+.nav-bar-wrapper > .right-column > .btn-wrapper button {
+    color: #FFFFF4;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+.nav-bar-wrapper > .right-column > .btn-wrapper button:hover {
+    background-color: #ECBD3E;
+}
+.nav-bar-wrapper > .right-column > .btn-wrapper > .create-dropdown button:hover{
+    background: none;
+}
+
+.nav-bar-wrapper > .right-column > .btn-wrapper > .create-dropdown > .dropdown > .dropdown-content {
+    margin-top: 10px;
+}
+
+.nav-bar-wrapper > .right-column > .btn-wrapper > .icon {
+    color: #36383F;
+    font-size: 2.0rem;
+    margin-top: -8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.nav-bar-wrapper > .right-column > .btn-wrapper > .icon:hover {
+    color: #ECBD3E;
+}
+
+
+.nav-bar-wrapper > .right-column > .btn-wrapper > .create-dropdown i {
+    color: #4BCE79;
+    margin-left: 7px;
+}
